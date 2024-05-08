@@ -1,0 +1,10 @@
+version: '3'
+services:
+  sample1:
+    image: kunal1010/gift_shopee
+    ports:
+      - "82:80"
+  sample2:
+    image: ubuntu/apache2
+    ports:
+      - "83:80"
